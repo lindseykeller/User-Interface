@@ -64,21 +64,35 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+header {
+	margin: -29px 0px 20px 0px;
+	padding:0px;
+	background-color: lime;
+}
 nav {
 	display: inline-block;
 	width: 68%;
 	margin: 60px 60px 60px 80px;
+
 	
 }
 nav a {
 	text-align: center;
 	padding: 20px 30px 20px 30px;
 	text-decoration: none;
-	color: lightgrey;
-	
+	color: #000;
+
+
 	
 
+}
+.fixed-nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  margin:0px;
+  padding-top: 0px;
+  background-color: lime;
 }
 .logo {
 	display: inline-block;
@@ -89,8 +103,8 @@ nav a {
 }
 .intro-wrap {
 	text-align: center;
-	margin: 100px 40px 40px 100px;
-    padding-bottom: 100px;
+    padding: 200px 0px 90px 0px;
+	margin: 20px 40px 40px 100px;
 	border-bottom: 1px solid #000;
 }
 .intro-wrap .intro {
@@ -102,7 +116,10 @@ nav a {
 	display: inline-block;
 	margin-right: -100px;
 	padding-left: 200px;
-}
+	
+
+} 
+
 .intro {
 	text-align: center;
 	margin-top: -120px;
@@ -114,6 +131,7 @@ nav a {
 
 }
 .intro h1 {
+	font-family: 'Alfa Slab One', cursive;
 	font-size: 80px;
 	text-align: center;
 	padding-bottom: 20px;
@@ -123,8 +141,13 @@ nav a {
 	border: 1px solid #000;
 	padding: 5px 40px 5px 40px;
 	color: #000;
+	font-family: 'Roboto', sans-serif;
 
 }
+
+
+
+
 .first-section{
 	margin-left: 100px;
 }
@@ -132,8 +155,13 @@ nav a {
 	display: inline-block;
 	width: 47%;
    padding: 20px 0px 40px 0px;
+   font-family: 'Roboto', sans-serif;
 
 
+}
+h4 {
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: bold;
 }
 .middle-img {
 	width: 100%;
@@ -150,10 +178,12 @@ nav a {
 	display: inline-block;
 	width: 32%;
    padding-left: 5px;
+   font-family: 'Roboto', sans-serif;
 }
 footer {
 	margin-left: 100px;
 	margin: 20px 40px 40px 100px;
+	font-family: 'Roboto', sans-serif;
 }
 
 footer a {
