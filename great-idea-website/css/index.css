@@ -69,23 +69,24 @@ header {
 	padding:0px;
 	background-color: lime;
 }
-nav {
-	display: inline-block;
-	width: 68%;
-	margin: 60px 60px 60px 80px;
 
-	
-}
+
 nav a {
 	text-align: center;
 	padding: 20px 30px 20px 30px;
 	text-decoration: none;
 	color: #000;
-
+	animation-name: example;
+	animation-duration: 1s;
+	animation-play-state: paused;
 
 	
 
 }
+nav a:hover {
+	animation-play-state: running;
+}
+
 .fixed-nav {
   width: 100%;
   position: fixed;
@@ -97,8 +98,8 @@ nav a {
 .logo {
 	display: inline-block;
     
-   margin-bottom: -12px;
-  
+  /*margin-bottom: -12px;*/
+  vertical-align: middle;
 
 }
 .intro-wrap {
@@ -110,7 +111,7 @@ nav a {
 .intro-wrap .intro {
 	display: inline-block;
 
-	position: relative;
+	
 }
 .intro-wrap img {
 	display: inline-block;
@@ -124,8 +125,6 @@ nav a {
 	text-align: center;
 	margin-top: -120px;
 	
-	position: absolute;
-	top: -50px;
 	width: 30%;
 	
 
@@ -145,7 +144,10 @@ nav a {
 
 }
 
-
+.intro a:hover {
+	background-color: #000;
+	color: #fff;
+}
 
 
 .first-section{
