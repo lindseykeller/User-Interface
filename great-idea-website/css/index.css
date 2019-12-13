@@ -65,17 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 header {
-	/*margin: -29px 0px 20px 0px;
-	padding:0px;*/
+	margin: -29px 0px 20px 0px;
+	padding:0px;
 	background-color: lime;
-	display: flex;
+
 }
 nav {
+	display: inline-block;
 	
-	display:flex;
-	flex-direction:row;
 	width: 68%;
-	/*margin: 60px 60px 60px 80px;*/
+	margin: 60px 60px 60px 80px;
      
 	
 }
